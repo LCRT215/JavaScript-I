@@ -43,7 +43,7 @@ exampleArray = [1, 2, 3, 4];
 //   return num * 3;
 // });
 
-const triple = (exampleArray.map = num => {
+const triple = exampleArray.map(num => {
   return num * 3;
 });
 
